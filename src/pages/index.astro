@@ -3,7 +3,7 @@ import MainPage from "../components/MainPage.astro";
 import { fetchTable } from "../utils/notion";
 import Page from "../layouts/Page.astro";
 
-const table = await fetchTable("f13fd760a7a548d489d309fb7c17a4d1");
+const table = await fetchTable("28963927e3ae48268c7d362b1eb9389f");
 const data = table.filter((row) => row.Published);
 ---
 
